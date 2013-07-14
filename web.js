@@ -1,6 +1,6 @@
 var express = require('express');
 
-var app = express.createServer(express.logger());
+var app = express();
 
 var msg = 'Hi Andrew! What are you doing? --from Coursera/Startup Engineering!';
 app.get('/', function(request, response) {
